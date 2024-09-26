@@ -5,6 +5,7 @@ html {
 }
 
 #root {
+  margin: 0 auto;
   padding: 10px !important;
   max-width: 1750px !important;
 }
