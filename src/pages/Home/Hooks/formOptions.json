@@ -1,0 +1,54 @@
+{
+  "baudRates": [
+    {
+      "value": 115200,
+      "label": "115200"
+    },
+    {
+      "value": 57600,
+      "label": "57600"
+    },
+    {
+      "value": 9600,
+      "label": "9600"
+    },
+    {
+      "value": "custom",
+      "label": "custom"
+    }
+  ],
+  "dataBits": [
+    {
+      "value": 7,
+      "label": "7"
+    },
+    {
+      "value": 8,
+      "label": "8"
+    }
+  ],
+  "stopBits": [
+    {
+      "value": 1,
+      "label": "1"
+    },
+    {
+      "value": 2,
+      "label": "2"
+    }
+  ],
+  "parity": [
+    {
+      "value": "none",
+      "label": "none"
+    },
+    {
+      "value": "odd",
+      "label": "odd"
+    },
+    {
+      "value": "even",
+      "label": "even"
+    }
+  ]
+}

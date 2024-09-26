@@ -1,0 +1,77 @@
+.home {
+  text-align: left;
+  width: 100%;
+  height: 95vh;
+
+  .settings {
+    .ant-form {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .ant-form-item {
+      margin-bottom: 8px;
+      margin-right: 20px;
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+    }
+    .ant-select-selector {
+      background-color: aqua;
+    }
+    .btns {
+      width: 100%;
+    }
+    .message {
+      width: 500px;
+      .ant-form-item-control-input-content {
+        display: flex;
+        .ant-btn {
+          margin-right: 10px;
+        }
+      }
+    }
+    .ant-form-item-label {
+      label {
+        color: #fff;
+      }
+    }
+    .ant-input {
+      background-color: aqua;
+    }
+    .ant-input-number {
+      width: 200px;
+    }
+    .btn {
+      margin: 8px;
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .data {
+    height: 85%;
+    display: flex;
+    flex: 1;
+    .data-send {
+      width: 250px;
+      height: 100%;
+      margin-right: 10px;
+      border: 2px solid #a7a5a5;
+      border-radius: 5px;
+      background-color: #acacac;
+      white-space: pre-wrap;
+      color: rgb(0, 0, 0);
+    }
+    .data-result {
+      flex: 1;
+      background-color: #f0e5e5;
+      overflow-y: auto;
+      border: 2px solid #a7a5a5;
+      border-radius: 5px;
+      height: 100%;
+      white-space: pre-wrap;
+      color: rgb(0, 0, 0);
+    }
+  }
+}
